@@ -1,0 +1,50 @@
+nav {
+  background: linear-gradient(rgba(53, 149, 170, 0.686), white);
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.elementsNavContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 96%;
+}
+
+.NavtitleContainer {
+  color: rgba(25, 185, 234, 0.882);
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  font-family: "Patrick Hand", cursive;
+  text-shadow: 1px 1px 2px rgb(45, 62, 60);
+}
+
+.aboutUs_button {
+  background-color: #fff;
+  color: rgb(23, 156, 217);
+  border: 1px solid rgb(23, 156, 217);
+  border-radius: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+  height: 2.5em;
+  width: 10em;
+  transition: all ease-in-out 0.2s;
+}
+
+.aboutUs_button:hover {
+  background-color: rgb(23, 156, 217);
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .aboutUs_button {
+    width: 10%;
+  }
+}
